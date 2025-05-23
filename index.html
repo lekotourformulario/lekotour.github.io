@@ -298,14 +298,15 @@
   />
 
   <!-- Número de Parcelas -->
-  <input
-    type="number"
-    name="parcelas"
-    placeholder="Nº de Parcelas"
-    min="1"
-    required
-    oninput="calcularTotal(this)"
-  />
+<input
+  type="number"
+  name="parcelas"
+  placeholder="Nº de Parcelas"
+  min="1"
+  max="12"
+  required
+  oninput="limitarParcelas(this); calcularTotal(this)"
+/>
 
   <!-- Resultado (Valor Total) -->
   <input
@@ -631,6 +632,25 @@
   function desformatarValor(valor) {
     return parseFloat(valor.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
   }
+
+
+  function limitarParcelas(input) {
+    const valor = parseInt(input.value);
+
+    if (valor > 12) {
+      input.value = 12;
+    } else if (valor < 1) {
+      input.value = 1;
+    }
+  }
+
+  function calcularTotal(input) {
+    // aqui você pode colocar o cálculo do total, se quiser
+    console.log("Parcelas:", input.value);
+  }
+
+
+
 
   function calcularTotal(elemento) {
     const container = elemento.parentElement;
