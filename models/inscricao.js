@@ -28,7 +28,11 @@ const inscricaoSchema = new mongoose.Schema({
     // CAMPO DIA DE VENCIMENTO (AJUSTADO conforme discutido)
     diaDeVencimento: { type: Number, required: true }, // Para guardar apenas o número do dia (ex: 10)
 
-    valor: { type: Number, required: true }, // Adicionado 'required'
+   mensal: { type: String, required: true }, // Adicionado 'required'
+     parcelas: { type: Number, required: true },
+     total: { type: String, required: true },
+
+
     assinatura: { type: String, required: true }, // Base64 da assinatura - CUIDADO COM O TAMANHO
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }

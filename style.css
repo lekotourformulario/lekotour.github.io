@@ -47,8 +47,8 @@ body * {
 .card::before {
   content: "";
   position: absolute;
-  width: 320px;
-  height: 320px;
+  width: 340px;
+  height: 340px;
  animation: rotateGlow 9s linear infinite;
   z-index: 1;
   opacity: 0.22;

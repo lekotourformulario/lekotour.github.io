@@ -47,7 +47,9 @@ async function enviarEmail(dados, assinaturaBase64) {
                     <li>Horário de Entrada: ${dados.horarioDeEntrada || 'N/A'}</li>
                     <li>Horário de Saída: ${dados.horarioDeSaida || 'N/A'}</li>
                     <li>Dia de Vencimento: ${dados.diaDeVencimento}</li>
-                    <li>Valor: ${dados.valor}</li>
+                    <li>Valor Mensal: ${dados.mensal}</li>
+                    <li>Parcelas: ${dados.parcelas}</li>
+                    <li>Valor Total: ${dados.total}</li>
                 </ul>
                 <p>A assinatura está anexada a este e-mail.</p>`,
         attachments: [
