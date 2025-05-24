@@ -119,14 +119,14 @@ select:focus {
 @keyframes pulseNeon {
   0% {
     box-shadow:
-      0 0 6px #af4444,
-      0 0 10px #922f50,
-      0 0 14px #580202;
+      0 0 6px #b11111,
+      0 0 10px #8a020e,
+      0 0 14px #3f0101;
   }
   100% {
     box-shadow:
       0 0 12px #000000,
-      0 0 16px #df6990,
+      0 0 16px #a8091e,
       0 0 20px #000000;
   }
 }
@@ -136,14 +136,14 @@ select:focus {
   0% {
     box-shadow:
       0 0 10px #000000,
-      0 0 14px #ca416f,
+      0 0 14px #94051d,
       0 0 24px #e9e9e9;
   }
   100% {
     box-shadow:
-      0 0 16px #af0e0e,
-      0 0 23px #970133,
-      0 0 32px #ffffff;
+      0 0 16px #ac0404,
+      0 0 23px #af0202,
+      0 0 32px #d4acac;
   }
 }
 
