@@ -1,6 +1,6 @@
 
 body * {
-  background-color: #000000;
+  background-color: #3a3a3a;
   font-family: 'Poppins', sans-serif;
   color: #eaeaea;
   box-sizing: border-box;
@@ -217,7 +217,7 @@ select:focus {
 
 .contrato p {
   line-height: 1.6;
-  color: hsl(0, 2%, 31%);
+  color: hsl(0, 2%, 51%);
 }
 
 
@@ -232,7 +232,7 @@ canvas {
   border: 1px solid #555;
   margin: 20px auto;
   display: block;
-  background-color: #1d1c1c;
+  background-color: #444343;
   border-radius: 4px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   width: 100%;
