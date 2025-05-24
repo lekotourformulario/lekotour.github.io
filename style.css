@@ -1,6 +1,6 @@
 
 body * {
-  background-color: #3a3a3a;
+  background-color: #0a0a0a;
   font-family: 'Poppins', sans-serif;
   color: #eaeaea;
   box-sizing: border-box;
@@ -119,9 +119,9 @@ select:focus {
 @keyframes pulseNeon {
   0% {
     box-shadow:
-      0 0 6px #d68181,
-      0 0 10px #df6990,
-      0 0 14px #e62424;
+      0 0 6px #af4444,
+      0 0 10px #922f50,
+      0 0 14px #580202;
   }
   100% {
     box-shadow:
@@ -136,13 +136,13 @@ select:focus {
   0% {
     box-shadow:
       0 0 10px #000000,
-      0 0 14px #f1568a,
+      0 0 14px #ca416f,
       0 0 24px #e9e9e9;
   }
   100% {
     box-shadow:
-      0 0 16px #e41e1e,
-      0 0 23px #e2004b,
+      0 0 16px #af0e0e,
+      0 0 23px #970133,
       0 0 32px #ffffff;
   }
 }
@@ -197,13 +197,13 @@ select:focus {
 .contrato h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: hsl(0, 1%, 45%);
+  color: hsl(0, 0%, 56%);
 }
 
 .contrato h3 {
   margin-top: 20px;
   padding-bottom: 5px;
-  color: hsl(0, 2%, 31%);
+  color: hsl(0, 1%, 62%);
 }
 
 .contrato article {
@@ -212,7 +212,7 @@ select:focus {
 
 .contrato h4 {
   margin-top: 10px;
-  color: hsl(0, 2%, 31%);
+  color: hsl(0, 7%, 79%);
 }
 
 .contrato p {
